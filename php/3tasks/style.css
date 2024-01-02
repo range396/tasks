@@ -1,0 +1,51 @@
+*,*:after,*:before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/*Task 1*/
+.task1 {
+  padding: 0 4px;
+}
+
+.divide-input {
+  display:  inline-block;
+}
+
+.upload-progress {
+  width: 100px;
+  height: 100px; 
+  border-radius: 50%;
+  transition: 20s;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(hotpink 0%, pink 0deg);    
+}
+
+.upload-progress progress {
+  transition: 15s;
+}
+
+.acceptance-info {
+  color: darkmagenta;
+}
+
+/*Task 2*/
+
+
+/*Task 3*/
+.task3_link {
+  padding-bottom: 4rem;
+}
+
+#can {
+  border: 1px solid silver;
+}
